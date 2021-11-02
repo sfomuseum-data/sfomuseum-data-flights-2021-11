@@ -2,10 +2,12 @@
   "id": 1746571261,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-01",
-    "date:inception_upper": "2021-11-01",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-01",
+    "date:cessation_lower": "2021-11-01",
+    "date:cessation_upper": "2021-11-01",
+    "date:inception_lower": "2021-11-02",
+    "date:inception_upper": "2021-11-02",
+    "edtf:cessation": "2021-11-01T12:21:30-07:00",
+    "edtf:inception": "2021-11-02T01:20:00Z",
     "flysfo:actual_timestamp": 1635807600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-01",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532771,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N844UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7082495",
+      "swim:gufi": "KL79312200"
+    },
     "wof:country": "US",
     "wof:created": 1635869379,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -84,9 +98,10 @@
       102527513,
       102532771,
       1159285413,
-      1745882309
+      1745882309,
+      1159289407
     ],
-    "wof:lastmodified": 1635869379,
+    "wof:lastmodified": 1635870173,
     "wof:name": "UA1050 (BUR-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",
