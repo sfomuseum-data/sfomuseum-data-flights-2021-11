@@ -2,10 +2,12 @@
   "id": 1746575969,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-02",
+    "date:cessation_upper": "2021-11-02",
     "date:inception_lower": "2021-11-02",
     "date:inception_upper": "2021-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-02",
+    "edtf:cessation": "2021-11-02T01:35:07-07:00",
+    "edtf:inception": "2021-11-02T14:40:00Z",
     "flysfo:actual_timestamp": 1635867720,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B38M",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532771,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N8713M",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "7192846"
+    },
     "wof:country": "US",
     "wof:created": 1635955714,
     "wof:geomhash": "579cc6c0d5668ba584a946b357aa3191",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1746575969,
     "wof:involves": [
+      1528104575,
       102527513,
       102532771,
-      1159285591,
-      -1
+      1159285591
     ],
-    "wof:lastmodified": 1635955714,
+    "wof:lastmodified": 1635956420,
     "wof:name": "WN418 (BUR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

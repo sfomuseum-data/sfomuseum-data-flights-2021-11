@@ -2,10 +2,12 @@
   "id": 1746576193,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-02",
+    "date:cessation_upper": "2021-11-02",
     "date:inception_lower": "2021-11-02",
     "date:inception_upper": "2021-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-02",
+    "edtf:cessation": "2021-11-02T04:23:47-07:00",
+    "edtf:inception": "2021-11-02T17:21:00Z",
     "flysfo:actual_timestamp": 1635894000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.647857,
     "geom:longitude": -120.1186115,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102534161,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N489UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7208533",
+      "swim:gufi": "KL53814300"
+    },
     "wof:country": "US",
     "wof:created": 1635955771,
     "wof:geomhash": "01009f732d03a7803d3f7fd23cf321f4",
@@ -84,9 +97,10 @@
       102527513,
       102534161,
       1159285413,
-      1745882247
+      1745882247,
+      1159292085
     ],
-    "wof:lastmodified": 1635955771,
+    "wof:lastmodified": 1635956422,
     "wof:name": "UA2246 (SNA-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

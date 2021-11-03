@@ -2,10 +2,12 @@
   "id": 1746575369,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-02",
+    "date:cessation_upper": "2021-11-02",
     "date:inception_lower": "2021-11-02",
     "date:inception_upper": "2021-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-02",
+    "edtf:cessation": "2021-11-02T23:27:27Z",
+    "edtf:inception": "2021-11-02T18:24:00Z",
     "flysfo:actual_timestamp": 1635894000,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.419367,
     "geom:longitude": -101.65686,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528659,
@@ -34,7 +38,16 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N654DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "7213026",
+      "swim:gufi": "KT61861300"
+    },
     "wof:country": "US",
     "wof:created": 1635955558,
     "wof:geomhash": "b96563c9986e04a3607ac552f48e111b",
@@ -45,12 +58,12 @@
     ],
     "wof:id": 1746575369,
     "wof:involves": [
+      1159289939,
       102527513,
       102528659,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1635955558,
+    "wof:lastmodified": 1635956419,
     "wof:name": "DL8921 (CLT-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

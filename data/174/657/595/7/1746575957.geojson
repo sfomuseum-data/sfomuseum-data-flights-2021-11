@@ -2,10 +2,12 @@
   "id": 1746575957,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-02",
-    "date:inception_upper": "2021-11-02",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-02",
+    "date:cessation_lower": "2021-11-03",
+    "date:cessation_upper": "2021-11-03",
+    "date:inception_lower": "2021-11-03",
+    "date:inception_upper": "2021-11-03",
+    "edtf:cessation": "2021-11-03T02:56:00Z",
+    "edtf:inception": "2021-11-03T02:01:00Z",
     "flysfo:actual_timestamp": 1635894000,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-11-02",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.907347,
     "geom:longitude": -120.3621325,
     "iata:airline": "WN",
+    "icao:aircraft": "B737",
     "icao:airline": "SWA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289869,
     "sfomuseum:airline_id": 1159285591,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532771,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N7822A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +93,10 @@
       102527513,
       102532771,
       1159285591,
-      1745882151
+      1745882151,
+      1159289869
     ],
-    "wof:lastmodified": 1635955710,
+    "wof:lastmodified": 1635956420,
     "wof:name": "WN2199 (BUR-SFO)",
     "wof:parent_id": 1745882151,
     "wof:placetype": "custom",
