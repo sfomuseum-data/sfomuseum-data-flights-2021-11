@@ -2,10 +2,12 @@
   "id": 1746581503,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-03",
+    "date:cessation_upper": "2021-11-03",
     "date:inception_lower": "2021-11-03",
     "date:inception_upper": "2021-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-03",
+    "edtf:cessation": "2021-11-03T18:43:34Z",
+    "edtf:inception": "2021-11-03T14:17:00Z",
     "flysfo:actual_timestamp": 1635980400,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-11-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "B38M",
     "icao:airline": "ACA",
     "lbl:latitude": 37.617321,
     "lbl:longitude": -122.389477,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283597,
     "sfomuseum:arrival_id": 102555091,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "CFSES",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7275003"
+    },
     "wof:country": "US",
     "wof:created": 1636042374,
     "wof:geomhash": "1a30ef2f5f82135186aeb20f0187ac62",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746581503,
     "wof:involves": [
+      1745882405,
+      1528104575,
       102555091,
       102527513,
-      1159283597,
-      1745882405
+      1159283597
     ],
-    "wof:lastmodified": 1636042374,
+    "wof:lastmodified": 1636042873,
     "wof:name": "AC738 (SFO-YYZ)",
     "wof:parent_id": 1745882405,
     "wof:placetype": "custom",

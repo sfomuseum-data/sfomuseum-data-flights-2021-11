@@ -2,10 +2,12 @@
   "id": 1746581567,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-04",
+    "date:cessation_upper": "2021-11-04",
     "date:inception_lower": "2021-11-03",
     "date:inception_upper": "2021-11-03",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-03",
+    "edtf:cessation": "2021-11-04T03:34:32Z",
+    "edtf:inception": "2021-11-03T23:45:00Z",
     "flysfo:actual_timestamp": 1635980400,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-11-03",
@@ -21,9 +23,11 @@
     "geom:latitude": 28.524645999999997,
     "geom:longitude": -110.7258735,
     "iata:airline": "AM",
+    "icao:aircraft": "B738",
     "icao:airline": "AMX",
     "lbl:latitude": 37.611664,
     "lbl:longitude": -122.390495,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283539,
     "sfomuseum:arrival_id": 102536579,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "XADRC",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7316818"
+    },
     "wof:country": "US",
     "wof:created": 1636042390,
     "wof:geomhash": "01999c4327be8e36df88ffd5cda77111",
@@ -84,9 +96,10 @@
       102536579,
       102527513,
       1159283539,
-      1745882399
+      1745882399,
+      1159289871
     ],
-    "wof:lastmodified": 1636042390,
+    "wof:lastmodified": 1636042874,
     "wof:name": "AM669 (SFO-MEX)",
     "wof:parent_id": 1745882399,
     "wof:placetype": "custom",
