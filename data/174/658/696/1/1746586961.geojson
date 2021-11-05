@@ -2,10 +2,12 @@
   "id": 1746586961,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-04",
-    "date:inception_upper": "2021-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-04",
+    "date:cessation_lower": "2021-11-05",
+    "date:cessation_upper": "2021-11-05",
+    "date:inception_lower": "2021-11-05",
+    "date:inception_upper": "2021-11-05",
+    "edtf:cessation": "2021-11-05T01:45:00Z",
+    "edtf:inception": "2021-11-05T00:30:00Z",
     "flysfo:actual_timestamp": 1636066800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.20008,
     "geom:longitude": -117.1757545,
     "iata:airline": "DL",
+    "icao:aircraft": "BCS1",
     "icao:airline": "DAL",
     "lbl:latitude": 37.614944,
     "lbl:longitude": -122.383123,
+    "sfomuseum:aircraft_id": 1528104583,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527363,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N139DU",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7329208",
+      "swim:gufi": "KO84001500"
+    },
     "wof:country": "US",
     "wof:created": 1636129378,
     "wof:geomhash": "b2ae00b77ffd1072a2eb4148779a5d9e",
@@ -84,9 +98,10 @@
       102527363,
       102527513,
       1159284261,
-      1745882201
+      1745882201,
+      1528104583
     ],
-    "wof:lastmodified": 1636129378,
+    "wof:lastmodified": 1636129913,
     "wof:name": "DL1352 (SFO-SLC)",
     "wof:parent_id": 1745882201,
     "wof:placetype": "custom",

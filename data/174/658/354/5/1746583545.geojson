@@ -2,10 +2,12 @@
   "id": 1746583545,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-04",
+    "date:cessation_upper": "2021-11-04",
     "date:inception_lower": "2021-11-04",
     "date:inception_upper": "2021-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-04",
+    "edtf:cessation": "2021-11-04T07:16:00Z",
+    "edtf:inception": "2021-11-04T03:49:00Z",
     "flysfo:actual_timestamp": 1636066800,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.260825,
     "geom:longitude": -109.7109545,
     "iata:airline": "AA",
+    "icao:aircraft": "A321",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528541,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N903AA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7338525",
+      "swim:gufi": "KF08605601"
+    },
     "wof:country": "US",
     "wof:created": 1636128122,
     "wof:geomhash": "865973335526f09b753756c305bf4946",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746583545,
     "wof:involves": [
-      102527513,
-      102528541,
       1159283849,
-      1745882177
+      1745882177,
+      1159289411,
+      102527513,
+      102528541
     ],
-    "wof:lastmodified": 1636128122,
+    "wof:lastmodified": 1636129907,
     "wof:name": "AA446 (DFW-SFO)",
     "wof:parent_id": 1745882177,
     "wof:placetype": "custom",

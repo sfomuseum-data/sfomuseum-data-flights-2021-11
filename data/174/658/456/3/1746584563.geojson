@@ -2,10 +2,12 @@
   "id": 1746584563,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-04",
-    "date:inception_upper": "2021-11-04",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-04",
+    "date:cessation_lower": "2021-11-04",
+    "date:cessation_upper": "2021-11-04",
+    "date:inception_lower": "2021-11-05",
+    "date:inception_upper": "2021-11-05",
+    "edtf:cessation": "2021-11-04T13:14:40-07:00",
+    "edtf:inception": "2021-11-05T02:21:00Z",
     "flysfo:actual_timestamp": 1636082280,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-04",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N887DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KL05160600"
+    },
     "wof:country": "US",
     "wof:created": 1636128508,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746584563,
     "wof:involves": [
-      102527513,
-      102533795,
       1159284261,
-      1745882209
+      1745882209,
+      1377564285,
+      102527513,
+      102533795
     ],
-    "wof:lastmodified": 1636128508,
+    "wof:lastmodified": 1636129910,
     "wof:name": "DL316 (LAX-SFO)",
     "wof:parent_id": 1745882209,
     "wof:placetype": "custom",
