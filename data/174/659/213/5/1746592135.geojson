@@ -2,10 +2,12 @@
   "id": 1746592135,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "1970-01-01",
+    "date:cessation_upper": "1970-01-01",
     "date:inception_lower": "2021-11-05",
     "date:inception_upper": "2021-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-05",
+    "edtf:cessation": "1970-01-01T00:00:00Z",
+    "edtf:inception": "2021-11-05T13:54:43-07:00",
     "flysfo:actual_timestamp": 1636153200,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A320",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N230FR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +93,10 @@
       102531189,
       102527513,
       1159284401,
-      1745882389
+      1745882389,
+      1159292085
     ],
-    "wof:lastmodified": 1636215409,
+    "wof:lastmodified": 1636215723,
     "wof:name": "F9668 (SFO-DEN)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",

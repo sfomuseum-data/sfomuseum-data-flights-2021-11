@@ -2,10 +2,12 @@
   "id": 1746589323,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-05",
+    "date:cessation_upper": "2021-11-05",
     "date:inception_lower": "2021-11-05",
     "date:inception_upper": "2021-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-05",
+    "edtf:cessation": "2021-11-05T06:13:19Z",
+    "edtf:inception": "2021-11-05T00:57:00Z",
     "flysfo:actual_timestamp": 1636153200,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-05",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7417497"
+    },
     "wof:country": "US",
     "wof:created": 1636214697,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -86,7 +91,7 @@
       1159283813,
       1745882097
     ],
-    "wof:lastmodified": 1636214697,
+    "wof:lastmodified": 1636215716,
     "wof:name": "AS470 (EWR-SFO)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",

@@ -2,10 +2,12 @@
   "id": 1746592881,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-05",
+    "date:cessation_upper": "2021-11-05",
     "date:inception_lower": "2021-11-05",
     "date:inception_upper": "2021-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-05",
+    "edtf:cessation": "2021-11-05T23:15:00Z",
+    "edtf:inception": "2021-11-05T20:36:00Z",
     "flysfo:actual_timestamp": 1636153200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 30.389476000000002,
     "geom:longitude": -116.044202,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102536441,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N419UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7493051",
+      "swim:gufi": "KO60848600"
+    },
     "wof:country": "US",
     "wof:created": 1636215598,
     "wof:geomhash": "7babf6b9ba279da48525185e0724d212",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746592881,
     "wof:involves": [
+      1159292085,
       102536441,
       102527513,
       1159285413,
       1745882247
     ],
-    "wof:lastmodified": 1636215598,
+    "wof:lastmodified": 1636215725,
     "wof:name": "UA1881 (SFO-SJD)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

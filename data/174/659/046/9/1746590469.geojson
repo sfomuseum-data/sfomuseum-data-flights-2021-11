@@ -2,10 +2,12 @@
   "id": 1746590469,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-05",
-    "date:inception_upper": "2021-11-05",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-05",
+    "date:cessation_lower": "2021-11-05",
+    "date:cessation_upper": "2021-11-05",
+    "date:inception_lower": "2021-11-06",
+    "date:inception_upper": "2021-11-06",
+    "edtf:cessation": "2021-11-05T14:02:44-07:00",
+    "edtf:inception": "2021-11-06T02:35:00Z",
     "flysfo:actual_timestamp": 1636153200,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-05",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618102,
     "lbl:longitude": -122.38769,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N17245",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7427039",
+      "swim:gufi": "KS02295700"
+    },
     "wof:country": "US",
     "wof:created": 1636214990,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746590469,
     "wof:involves": [
+      1159289871,
       102527513,
       102532251,
       1159285413,
       1745882251
     ],
-    "wof:lastmodified": 1636214990,
+    "wof:lastmodified": 1636215714,
     "wof:name": "UA1642 (PDX-SFO)",
     "wof:parent_id": 1745882251,
     "wof:placetype": "custom",
