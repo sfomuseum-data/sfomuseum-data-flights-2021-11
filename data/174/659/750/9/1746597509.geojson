@@ -2,10 +2,12 @@
   "id": 1746597509,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-06",
+    "date:cessation_upper": "2021-11-06",
     "date:inception_lower": "2021-11-06",
     "date:inception_upper": "2021-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-06",
+    "edtf:cessation": "2021-11-06T20:13:59Z",
+    "edtf:inception": "2021-11-06T15:58:00Z",
     "flysfo:actual_timestamp": 1636239600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B772",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617615,
     "lbl:longitude": -122.390247,
+    "sfomuseum:aircraft_id": 1159289985,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N77022",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7554156",
+      "swim:gufi": "KO43067700"
+    },
     "wof:country": "US",
     "wof:created": 1636301916,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746597509,
     "wof:involves": [
-      102528817,
       102527513,
       1159285413,
-      1745882407
+      1745882407,
+      1159289985,
+      102528817
     ],
-    "wof:lastmodified": 1636301916,
+    "wof:lastmodified": 1636302027,
     "wof:name": "UA1986 (SFO-IAD)",
     "wof:parent_id": 1745882407,
     "wof:placetype": "custom",

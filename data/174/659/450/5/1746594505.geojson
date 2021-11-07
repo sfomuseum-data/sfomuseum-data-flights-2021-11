@@ -2,10 +2,12 @@
   "id": 1746594505,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-06",
+    "date:cessation_upper": "2021-11-06",
     "date:inception_lower": "2021-11-06",
     "date:inception_upper": "2021-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-06",
+    "edtf:cessation": "2021-11-06T18:11:45Z",
+    "edtf:inception": "2021-11-06T17:41:00Z",
     "flysfo:actual_timestamp": 1636239600,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.1517615,
     "geom:longitude": -121.98042749999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530559,
@@ -34,7 +38,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N661DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "7568740"
+    },
     "wof:country": "US",
     "wof:created": 1636301172,
     "wof:geomhash": "f5805f1be1c56ce2a2965880e252c65f",
@@ -45,12 +56,12 @@
     ],
     "wof:id": 1746594505,
     "wof:involves": [
+      1159289939,
       102527513,
       102530559,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1636301172,
+    "wof:lastmodified": 1636302030,
     "wof:name": "DL8841 (SMF-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

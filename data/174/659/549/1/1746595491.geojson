@@ -2,10 +2,12 @@
   "id": 1746595491,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-06",
+    "date:cessation_upper": "2021-11-06",
     "date:inception_lower": "2021-11-06",
     "date:inception_upper": "2021-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-06",
+    "edtf:cessation": "2021-11-06T00:45:44-07:00",
+    "edtf:inception": "2021-11-06T13:49:00Z",
     "flysfo:actual_timestamp": 1636239600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.5616045,
     "geom:longitude": -121.07155499999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619451,
     "lbl:longitude": -122.384404,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102525535,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N844UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7543618",
+      "swim:gufi": "KO40790700"
+    },
     "wof:country": "US",
     "wof:created": 1636301420,
     "wof:geomhash": "a4d4dc469296ca0f5ad383dc766835b1",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746595491,
     "wof:involves": [
+      1159289407,
       102527513,
       102525535,
       1159285413,
       1745882315
     ],
-    "wof:lastmodified": 1636301420,
+    "wof:lastmodified": 1636302032,
     "wof:name": "UA547 (RNO-SFO)",
     "wof:parent_id": 1745882315,
     "wof:placetype": "custom",

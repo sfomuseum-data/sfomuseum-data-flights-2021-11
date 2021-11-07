@@ -2,10 +2,12 @@
   "id": 1746594221,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-06",
+    "date:cessation_upper": "2021-11-06",
     "date:inception_lower": "2021-11-06",
     "date:inception_upper": "2021-11-06",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-06",
+    "edtf:cessation": "2021-11-06T04:55:52-07:00",
+    "edtf:inception": "2021-11-06T17:47:00Z",
     "flysfo:actual_timestamp": 1636239600,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-06",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.7213045,
     "geom:longitude": -119.4384925,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533591,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N854VA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "7558176"
+    },
     "wof:country": "US",
     "wof:created": 1636301102,
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746594221,
     "wof:involves": [
+      1159292085,
       102527513,
       102533591,
-      1159283813,
-      -1
+      1159283813
     ],
-    "wof:lastmodified": 1636301102,
+    "wof:lastmodified": 1636302029,
     "wof:name": "AS9809 (PSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
