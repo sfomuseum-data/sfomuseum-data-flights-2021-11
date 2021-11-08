@@ -2,10 +2,12 @@
   "id": 1746602839,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-08",
+    "date:cessation_upper": "2021-11-08",
     "date:inception_lower": "2021-11-07",
     "date:inception_upper": "2021-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-07",
+    "edtf:cessation": "2021-11-08T04:37:46Z",
+    "edtf:inception": "2021-11-07T17:15:00Z",
     "flysfo:actual_timestamp": 1636329600,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-07",
@@ -21,9 +23,11 @@
     "geom:latitude": 37.535978,
     "geom:longitude": 2.1453445,
     "iata:airline": "UA",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102556451,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N2534U",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7670871",
+      "swim:gufi": "KO52650100"
+    },
     "wof:country": "US",
     "wof:created": 1636388538,
     "wof:geomhash": "76fab8ba90cc172f777e745d124625d2",
@@ -84,9 +97,10 @@
       102556451,
       102527513,
       1159285413,
-      1745882429
+      1745882429,
+      1159289993
     ],
-    "wof:lastmodified": 1636388538,
+    "wof:lastmodified": 1636388585,
     "wof:name": "UA857 (SFO-ICN)",
     "wof:parent_id": 1745882429,
     "wof:placetype": "custom",

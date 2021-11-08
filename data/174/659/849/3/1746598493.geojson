@@ -2,10 +2,12 @@
   "id": 1746598493,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-07",
+    "date:cessation_upper": "2021-11-07",
     "date:inception_lower": "2021-11-07",
     "date:inception_upper": "2021-11-07",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-07",
+    "edtf:cessation": "2021-11-07T18:37:11Z",
+    "edtf:inception": "2021-11-07T13:53:00Z",
     "flysfo:actual_timestamp": 1636329600,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-11-07",
@@ -21,6 +23,7 @@
     "geom:latitude": 40.647171,
     "geom:longitude": -100.9996425,
     "iata:airline": "AC",
+    "icao:aircraft": "BCS3",
     "icao:airline": "ACA",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
@@ -34,7 +37,14 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "7641799"
+    },
     "wof:country": "US",
     "wof:created": 1636387404,
     "wof:geomhash": "c362a07ec1dacdc6f288623946bd8d01",
@@ -50,7 +60,7 @@
       1159283597,
       -1
     ],
-    "wof:lastmodified": 1636387404,
+    "wof:lastmodified": 1636388574,
     "wof:name": "AC737 (YYZ-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
