@@ -2,10 +2,12 @@
   "id": 1746606823,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-08",
-    "date:inception_upper": "2021-11-08",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-08",
+    "date:cessation_lower": "2021-11-09",
+    "date:cessation_upper": "2021-11-09",
+    "date:inception_lower": "2021-11-09",
+    "date:inception_upper": "2021-11-09",
+    "edtf:cessation": "2021-11-09T07:21:00Z",
+    "edtf:inception": "2021-11-09T05:25:00Z",
     "flysfo:actual_timestamp": 1636434660,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-11-08",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.611747,
     "lbl:longitude": -122.39043,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N713FR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +93,10 @@
       102531189,
       102527513,
       1159284401,
-      1745882389
+      1745882389,
+      1159289411
     ],
-    "wof:lastmodified": 1636474671,
+    "wof:lastmodified": 1636474986,
     "wof:name": "F9664 (SFO-DEN)",
     "wof:parent_id": 1745882389,
     "wof:placetype": "custom",
