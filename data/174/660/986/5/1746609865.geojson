@@ -2,10 +2,12 @@
   "id": 1746609865,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-09",
+    "date:cessation_upper": "2021-11-09",
     "date:inception_lower": "2021-11-09",
     "date:inception_upper": "2021-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-09",
+    "edtf:cessation": "2021-11-09T07:02:39Z",
+    "edtf:inception": "2021-11-09T02:24:00Z",
     "flysfo:actual_timestamp": 1636502400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-09",
@@ -48,6 +50,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7799185"
+    },
     "wof:country": "US",
     "wof:created": 1636560540,
     "wof:geomhash": "e4ae4c60ed0a76df38dbcfaaa5dd6a55",
@@ -86,7 +91,7 @@
       1159285413,
       1745882279
     ],
-    "wof:lastmodified": 1636560540,
+    "wof:lastmodified": 1636561238,
     "wof:name": "UA1288 (OGG-SFO)",
     "wof:parent_id": 1745882279,
     "wof:placetype": "custom",

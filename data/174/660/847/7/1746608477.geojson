@@ -2,10 +2,12 @@
   "id": 1746608477,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-09",
+    "date:cessation_upper": "2021-11-09",
     "date:inception_lower": "2021-11-09",
     "date:inception_upper": "2021-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-09",
+    "edtf:cessation": "2021-11-09T23:53:21Z",
+    "edtf:inception": "2021-11-09T21:58:00Z",
     "flysfo:actual_timestamp": 1636502400,
     "flysfo:airline": "AC",
     "flysfo:date": "2021-11-09",
@@ -35,6 +37,9 @@
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "7859157"
+    },
     "wof:country": "US",
     "wof:created": 1636560180,
     "wof:geomhash": "e68490b7b9257816408c117e0e15f8ec",
@@ -50,7 +55,7 @@
       1159283597,
       -1
     ],
-    "wof:lastmodified": 1636560180,
+    "wof:lastmodified": 1636561231,
     "wof:name": "AC574 (YVR-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

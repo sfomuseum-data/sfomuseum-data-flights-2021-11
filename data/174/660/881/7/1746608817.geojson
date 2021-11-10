@@ -2,10 +2,12 @@
   "id": 1746608817,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-09",
-    "date:inception_upper": "2021-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-09",
+    "date:cessation_lower": "2021-11-10",
+    "date:cessation_upper": "2021-11-10",
+    "date:inception_lower": "2021-11-10",
+    "date:inception_upper": "2021-11-10",
+    "edtf:cessation": "2021-11-10T06:03:00Z",
+    "edtf:inception": "2021-11-10T00:07:00Z",
     "flysfo:actual_timestamp": 1636502400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B739",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N408AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7872451"
+    },
     "wof:country": "US",
     "wof:created": 1636560273,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -84,9 +97,10 @@
       102527513,
       102530049,
       1159283813,
-      1745882103
+      1745882103,
+      1377564285
     ],
-    "wof:lastmodified": 1636560273,
+    "wof:lastmodified": 1636561233,
     "wof:name": "AS339 (EWR-SFO)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

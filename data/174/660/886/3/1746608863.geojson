@@ -2,10 +2,12 @@
   "id": 1746608863,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-09",
-    "date:inception_upper": "2021-11-09",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-09",
+    "date:cessation_lower": "2021-11-10",
+    "date:cessation_upper": "2021-11-10",
+    "date:inception_lower": "2021-11-10",
+    "date:inception_upper": "2021-11-10",
+    "edtf:cessation": "2021-11-10T07:30:00Z",
+    "edtf:inception": "2021-11-10T01:27:00Z",
     "flysfo:actual_timestamp": 1636502400,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-09",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.1546165,
     "geom:longitude": -98.2742345,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.617421,
     "lbl:longitude": -122.380916,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102530049,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N557AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7792964"
+    },
     "wof:country": "US",
     "wof:created": 1636560284,
     "wof:geomhash": "5afbf99c4360a00cfc0890f48cccf304",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746608863,
     "wof:involves": [
+      1159289871,
       102527513,
       102530049,
       1159283813,
       1745882107
     ],
-    "wof:lastmodified": 1636560284,
+    "wof:lastmodified": 1636561233,
     "wof:name": "AS470 (EWR-SFO)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",
