@@ -2,10 +2,12 @@
   "id": 1746617339,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-10",
+    "date:cessation_upper": "2021-11-10",
     "date:inception_lower": "2021-11-10",
     "date:inception_upper": "2021-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-10",
+    "edtf:cessation": "2021-11-10T23:30:00Z",
+    "edtf:inception": "2021-11-10T19:56:00Z",
     "flysfo:actual_timestamp": 1636573080,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "B753",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289945,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N78866",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7945370",
+      "swim:gufi": "KO59198400"
+    },
     "wof:country": "US",
     "wof:created": 1636647564,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -84,9 +97,10 @@
       102533631,
       102527513,
       1159285413,
-      1745882283
+      1745882283,
+      1159289945
     ],
-    "wof:lastmodified": 1636647564,
+    "wof:lastmodified": 1636647662,
     "wof:name": "UA2625 (SFO-ORD)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "custom",

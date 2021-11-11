@@ -2,10 +2,12 @@
   "id": 1746614099,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-10",
+    "date:cessation_upper": "2021-11-10",
     "date:inception_lower": "2021-11-10",
     "date:inception_upper": "2021-11-10",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-10",
+    "edtf:cessation": "2021-11-10T05:11:42-08:00",
+    "edtf:inception": "2021-11-10T17:25:00Z",
     "flysfo:actual_timestamp": 1636579020,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-10",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.2506555,
     "geom:longitude": -107.78563,
     "iata:airline": "DL",
+    "icao:aircraft": "B739",
     "icao:airline": "DAL",
     "lbl:latitude": 37.615184,
     "lbl:longitude": -122.382965,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531131,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N856DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "7930211",
+      "swim:gufi": "KP59275400"
+    },
     "wof:country": "US",
     "wof:created": 1636646751,
     "wof:geomhash": "0c6e1b69ec0e7e239d3f5365b057a47f",
@@ -84,9 +97,10 @@
       102527513,
       102531131,
       1159284261,
-      1745882205
+      1745882205,
+      1377564285
     ],
-    "wof:lastmodified": 1636646751,
+    "wof:lastmodified": 1636647664,
     "wof:name": "DL1033 (MSP-SFO)",
     "wof:parent_id": 1745882205,
     "wof:placetype": "custom",
