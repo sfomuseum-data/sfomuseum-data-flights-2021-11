@@ -2,10 +2,12 @@
   "id": 1746625247,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-13",
+    "date:cessation_upper": "2021-11-13",
     "date:inception_lower": "2021-11-12",
     "date:inception_upper": "2021-11-12",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-12",
+    "edtf:cessation": "2021-11-13T10:35:00Z",
+    "edtf:inception": "2021-11-12T13:42:06-08:00",
     "flysfo:actual_timestamp": 1636781280,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-11-12",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.70423,
     "geom:longitude": -101.3334745,
     "iata:airline": "AA",
+    "icao:aircraft": "B38M",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1528104575,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102531023,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N334SM",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO15327700"
+    },
     "wof:country": "US",
     "wof:created": 1636819914,
     "wof:geomhash": "05e474f4bf1eb5ae110c20d94aac828f",
@@ -84,9 +96,10 @@
       102531023,
       102527513,
       1159283849,
-      1745882173
+      1745882173,
+      1528104575
     ],
-    "wof:lastmodified": 1636819914,
+    "wof:lastmodified": 1636820512,
     "wof:name": "AA2035 (SFO-MIA)",
     "wof:parent_id": 1745882173,
     "wof:placetype": "custom",
