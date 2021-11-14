@@ -2,10 +2,12 @@
   "id": 1746627779,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-13",
+    "date:cessation_upper": "2021-11-13",
     "date:inception_lower": "2021-11-13",
     "date:inception_upper": "2021-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-13",
+    "edtf:cessation": "2021-11-13T00:29:03-08:00",
+    "edtf:inception": "2021-11-13T15:35:00Z",
     "flysfo:actual_timestamp": 1636821360,
     "flysfo:airline": "AA",
     "flysfo:date": "2021-11-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AA",
+    "icao:aircraft": "A320",
     "icao:airline": "AAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283849,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533795,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N668AW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8188862",
+      "swim:gufi": "KL50904700"
+    },
     "wof:country": "US",
     "wof:created": 1636905710,
     "wof:geomhash": "f16008bc2ad68c6d1bc593247c6c74a9",
@@ -84,9 +98,10 @@
       102527513,
       102533795,
       1159283849,
-      1745882171
+      1745882171,
+      1159292085
     ],
-    "wof:lastmodified": 1636905710,
+    "wof:lastmodified": 1636906929,
     "wof:name": "AA2891 (LAX-SFO)",
     "wof:parent_id": 1745882171,
     "wof:placetype": "custom",

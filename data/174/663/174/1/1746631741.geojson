@@ -2,10 +2,12 @@
   "id": 1746631741,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-13",
+    "date:cessation_upper": "2021-11-13",
     "date:inception_lower": "2021-11-13",
     "date:inception_upper": "2021-11-13",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-13",
+    "edtf:cessation": "2021-11-13T21:58:00Z",
+    "edtf:inception": "2021-11-13T01:36:20-08:00",
     "flysfo:actual_timestamp": 1636821240,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-13",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.234314499999996,
     "geom:longitude": -99.70629299999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.620533,
     "lbl:longitude": -122.389374,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532159,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N87527",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8195841",
+      "swim:gufi": "KO52804700"
+    },
     "wof:country": "US",
     "wof:created": 1636906807,
     "wof:geomhash": "df4d5906f2523703f9da91c779be1785",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746631741,
     "wof:involves": [
+      1159289871,
       102532159,
       102527513,
       1159285413,
       1745882283
     ],
-    "wof:lastmodified": 1636906807,
+    "wof:lastmodified": 1636906937,
     "wof:name": "UA1954 (SFO-DCA)",
     "wof:parent_id": 1745882283,
     "wof:placetype": "custom",
