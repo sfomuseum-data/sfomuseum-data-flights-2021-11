@@ -2,10 +2,12 @@
   "id": 1746635903,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-14",
+    "date:cessation_upper": "2021-11-14",
     "date:inception_lower": "2021-11-14",
     "date:inception_upper": "2021-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-14",
+    "edtf:cessation": "2021-11-14T23:51:32Z",
+    "edtf:inception": "2021-11-14T18:39:00Z",
     "flysfo:actual_timestamp": 1636913760,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N569AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746635903,
     "wof:involves": [
-      102534365,
-      102527513,
       1159283813,
-      1745882111
+      1745882111,
+      1159289871,
+      102534365,
+      102527513
     ],
-    "wof:lastmodified": 1636992938,
+    "wof:lastmodified": 1636993337,
     "wof:name": "AS477 (SFO-JFK)",
     "wof:parent_id": 1745882111,
     "wof:placetype": "custom",

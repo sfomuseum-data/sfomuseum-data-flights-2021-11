@@ -2,10 +2,12 @@
   "id": 1746637145,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-15",
+    "date:cessation_upper": "2021-11-15",
     "date:inception_lower": "2021-11-14",
     "date:inception_upper": "2021-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-14",
+    "edtf:cessation": "2021-11-15T08:28:00Z",
+    "edtf:inception": "2021-11-14T12:56:18-08:00",
     "flysfo:actual_timestamp": 1636934400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.800514,
     "geom:longitude": -105.1326535,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533631,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO07553200"
+    },
     "wof:country": "US",
     "wof:created": 1636993241,
     "wof:geomhash": "7a75cc81bf790964b92a4927d3978f50",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746637145,
     "wof:involves": [
+      1159292085,
       102533631,
       102527513,
-      1159285413,
-      -1
+      1159285413
     ],
-    "wof:lastmodified": 1636993241,
+    "wof:lastmodified": 1636993340,
     "wof:name": "UA2737 (SFO-ORD)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

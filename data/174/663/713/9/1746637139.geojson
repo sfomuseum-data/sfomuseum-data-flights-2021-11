@@ -2,10 +2,12 @@
   "id": 1746637139,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-15",
+    "date:cessation_upper": "2021-11-15",
     "date:inception_lower": "2021-11-14",
     "date:inception_upper": "2021-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-14",
+    "edtf:cessation": "2021-11-15T04:26:00Z",
+    "edtf:inception": "2021-11-14T04:06:00Z",
     "flysfo:actual_timestamp": 1636944720,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.175762,
     "geom:longitude": -119.778435,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528997,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N853UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8239979",
+      "swim:gufi": "KO05139200"
+    },
     "wof:country": "US",
     "wof:created": 1636993239,
     "wof:geomhash": "25f5345529d944df781e36098260a435",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746637139,
     "wof:involves": [
+      1745882247,
+      1159289407,
       102528997,
       102527513,
-      1159285413,
-      1745882247
+      1159285413
     ],
-    "wof:lastmodified": 1636993239,
+    "wof:lastmodified": 1636993340,
     "wof:name": "UA2641 (SFO-SAN)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

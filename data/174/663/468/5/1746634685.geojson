@@ -2,10 +2,12 @@
   "id": 1746634685,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-14",
-    "date:inception_upper": "2021-11-14",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-14",
+    "date:cessation_lower": "2021-11-14",
+    "date:cessation_upper": "2021-11-14",
+    "date:inception_lower": "2021-11-15",
+    "date:inception_upper": "2021-11-15",
+    "edtf:cessation": "2021-11-14T10:16:12-08:00",
+    "edtf:inception": "2021-11-15T00:32:00Z",
     "flysfo:actual_timestamp": 1636943040,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-14",
@@ -21,9 +23,11 @@
     "geom:latitude": 42.529906499999996,
     "geom:longitude": -122.3376055,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533269,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N472UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KS77855100"
+    },
     "wof:country": "US",
     "wof:created": 1636992632,
     "wof:geomhash": "3123a4aff4021144fa8973299956ba97",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746634685,
     "wof:involves": [
+      1745882257,
+      1159292085,
       102527513,
       102533269,
-      1159285413,
-      1745882257
+      1159285413
     ],
-    "wof:lastmodified": 1636992632,
+    "wof:lastmodified": 1636993334,
     "wof:name": "UA2050 (SEA-SFO)",
     "wof:parent_id": 1745882257,
     "wof:placetype": "custom",
