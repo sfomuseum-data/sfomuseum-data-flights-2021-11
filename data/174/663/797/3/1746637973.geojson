@@ -2,10 +2,12 @@
   "id": 1746637973,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-15",
+    "date:cessation_upper": "2021-11-15",
     "date:inception_lower": "2021-11-15",
     "date:inception_upper": "2021-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-15",
+    "edtf:cessation": "2021-11-15T06:17:00Z",
+    "edtf:inception": "2021-11-15T02:03:00Z",
     "flysfo:actual_timestamp": 1637020800,
     "flysfo:airline": "AM",
     "flysfo:date": "2021-11-15",
@@ -48,6 +50,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8310699"
+    },
     "wof:country": "US",
     "wof:created": 1637078626,
     "wof:geomhash": "d1cf00e952c40abdeded8d31cdcdf72b",
@@ -86,7 +91,7 @@
       1159283539,
       1745882373
     ],
-    "wof:lastmodified": 1637078626,
+    "wof:lastmodified": 1637079779,
     "wof:name": "AM608 (GDL-SFO)",
     "wof:parent_id": 1745882373,
     "wof:placetype": "custom",

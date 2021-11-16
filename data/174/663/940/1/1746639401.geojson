@@ -2,10 +2,12 @@
   "id": 1746639401,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-15",
+    "date:cessation_upper": "2021-11-15",
     "date:inception_lower": "2021-11-15",
     "date:inception_upper": "2021-11-15",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-15",
+    "edtf:cessation": "2021-11-15T08:06:00Z",
+    "edtf:inception": "2021-11-15T05:53:00Z",
     "flysfo:actual_timestamp": 1636963740,
     "flysfo:airline": "WN",
     "flysfo:date": "2021-11-15",
@@ -48,6 +50,9 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8314683"
+    },
     "wof:country": "US",
     "wof:created": 1637078992,
     "wof:geomhash": "736fe0d2ebd38878be6950e82908a686",
@@ -86,7 +91,7 @@
       1159285591,
       1745882157
     ],
-    "wof:lastmodified": 1637078992,
+    "wof:lastmodified": 1637079786,
     "wof:name": "WN5455 (DEN-SFO)",
     "wof:parent_id": 1745882157,
     "wof:placetype": "custom",
