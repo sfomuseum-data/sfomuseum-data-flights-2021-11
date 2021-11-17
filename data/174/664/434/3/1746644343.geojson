@@ -2,10 +2,12 @@
   "id": 1746644343,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-17",
+    "date:cessation_upper": "2021-11-17",
     "date:inception_lower": "2021-11-16",
     "date:inception_upper": "2021-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-16",
+    "edtf:cessation": "2021-11-16T22:59:01-08:00",
+    "edtf:inception": "2021-11-16T14:12:00Z",
     "flysfo:actual_timestamp": 1637075880,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A319",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289407,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533575,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N878UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8409500",
+      "swim:gufi": "KL40778301"
+    },
     "wof:country": "US",
     "wof:created": 1637165403,
     "wof:geomhash": "094b2380067f0814bdd38962ab53e3d3",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746644343,
     "wof:involves": [
+      1159289407,
       102527513,
       102533575,
       1159285413,
       1745882309
     ],
-    "wof:lastmodified": 1637165403,
+    "wof:lastmodified": 1637166126,
     "wof:name": "UA1508 (ONT-SFO)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",

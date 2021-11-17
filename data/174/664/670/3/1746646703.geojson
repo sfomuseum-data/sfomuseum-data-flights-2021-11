@@ -2,10 +2,12 @@
   "id": 1746646703,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-17",
+    "date:cessation_upper": "2021-11-17",
     "date:inception_lower": "2021-11-16",
     "date:inception_upper": "2021-11-16",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-16",
+    "edtf:cessation": "2021-11-17T05:29:00Z",
+    "edtf:inception": "2021-11-16T09:05:50-08:00",
     "flysfo:actual_timestamp": 1637110260,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-16",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.283618000000004,
     "geom:longitude": -99.9123225,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618874,
     "lbl:longitude": -122.38419,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102528817,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N16234",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO86001301"
+    },
     "wof:country": "US",
     "wof:created": 1637166024,
     "wof:geomhash": "1c4ce661f6692034a082b31062a17f5e",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746646703,
     "wof:involves": [
-      102528817,
-      102527513,
       1159285413,
-      1745882309
+      1745882309,
+      1159289871,
+      102528817,
+      102527513
     ],
-    "wof:lastmodified": 1637166024,
+    "wof:lastmodified": 1637166120,
     "wof:name": "UA2626 (SFO-IAD)",
     "wof:parent_id": 1745882309,
     "wof:placetype": "custom",
