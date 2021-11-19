@@ -2,10 +2,12 @@
   "id": 1746656879,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-19",
+    "date:cessation_upper": "2021-11-19",
     "date:inception_lower": "2021-11-18",
     "date:inception_upper": "2021-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-18",
+    "edtf:cessation": "2021-11-19T04:28:37Z",
+    "edtf:inception": "2021-11-18T11:26:28-08:00",
     "flysfo:actual_timestamp": 1637291100,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533927,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N497UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO01864601"
+    },
     "wof:country": "US",
     "wof:created": 1637338898,
     "wof:geomhash": "ac29143dee46faf8dc4d82fa5cfc7601",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746656879,
     "wof:involves": [
+      1159292085,
       102533927,
       102527513,
       1159285413,
       1745882247
     ],
-    "wof:lastmodified": 1637338898,
+    "wof:lastmodified": 1637339012,
     "wof:name": "UA2205 (SFO-EUG)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",

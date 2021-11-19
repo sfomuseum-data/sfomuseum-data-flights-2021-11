@@ -2,10 +2,12 @@
   "id": 1746656787,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-18",
-    "date:inception_upper": "2021-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-18",
+    "date:cessation_lower": "2021-11-19",
+    "date:cessation_upper": "2021-11-19",
+    "date:inception_lower": "2021-11-19",
+    "date:inception_upper": "2021-11-19",
+    "edtf:cessation": "2021-11-19T05:56:15Z",
+    "edtf:inception": "2021-11-19T01:00:00Z",
     "flysfo:actual_timestamp": 1637282760,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.256470999999998,
     "geom:longitude": -139.40440999999998,
     "iata:airline": "UA",
+    "icao:aircraft": "B738",
     "icao:airline": "UAL",
     "lbl:latitude": 37.621076,
     "lbl:longitude": -122.390239,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102532929,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N76523",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +93,10 @@
       102532929,
       102527513,
       1159285413,
-      1745882293
+      1745882293,
+      1159289871
     ],
-    "wof:lastmodified": 1637338872,
+    "wof:lastmodified": 1637339012,
     "wof:name": "UA1749 (SFO-OGG)",
     "wof:parent_id": 1745882293,
     "wof:placetype": "custom",

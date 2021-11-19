@@ -2,10 +2,12 @@
   "id": 1746656877,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-19",
+    "date:cessation_upper": "2021-11-19",
     "date:inception_lower": "2021-11-18",
     "date:inception_upper": "2021-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-18",
+    "edtf:cessation": "2021-11-19T03:20:15Z",
+    "edtf:inception": "2021-11-18T23:19:00Z",
     "flysfo:actual_timestamp": 1637280000,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.512417,
     "geom:longitude": -102.103286,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618774,
     "lbl:longitude": -122.384852,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102534019,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N68843",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8631676",
+      "swim:gufi": "KO75970500"
+    },
     "wof:country": "US",
     "wof:created": 1637338898,
     "wof:geomhash": "f65caf98d316e6ee4a43fdc3ee688d07",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746656877,
     "wof:involves": [
+      1377564285,
       102534019,
       102527513,
       1159285413,
       1745882305
     ],
-    "wof:lastmodified": 1637338898,
+    "wof:lastmodified": 1637339012,
     "wof:name": "UA2201 (SFO-CLE)",
     "wof:parent_id": 1745882305,
     "wof:placetype": "custom",

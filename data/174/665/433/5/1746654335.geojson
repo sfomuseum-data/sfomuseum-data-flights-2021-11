@@ -2,10 +2,12 @@
   "id": 1746654335,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-18",
+    "date:cessation_upper": "2021-11-18",
     "date:inception_lower": "2021-11-18",
     "date:inception_upper": "2021-11-18",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-18",
+    "edtf:cessation": "2021-11-18T01:16:48-08:00",
+    "edtf:inception": "2021-11-18T11:39:00Z",
     "flysfo:actual_timestamp": 1637256120,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-18",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.7471565,
     "geom:longitude": -100.580671,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617477,
     "lbl:longitude": -122.388302,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102528779,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N446UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8570712",
+      "swim:gufi": "KW33173500"
+    },
     "wof:country": "US",
     "wof:created": 1637338252,
     "wof:geomhash": "e1d14091bb010ff3febce3dc78c1c8b4",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746654335,
     "wof:involves": [
+      1159292085,
       102527513,
       102528779,
       1159285413,
       1745882247
     ],
-    "wof:lastmodified": 1637338252,
+    "wof:lastmodified": 1637339006,
     "wof:name": "UA1620 (RDU-SFO)",
     "wof:parent_id": 1745882247,
     "wof:placetype": "custom",
