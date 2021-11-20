@@ -2,10 +2,12 @@
   "id": 1746662287,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-20",
+    "date:cessation_upper": "2021-11-20",
     "date:inception_lower": "2021-11-19",
     "date:inception_upper": "2021-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-19",
+    "edtf:cessation": "2021-11-20T02:53:00Z",
+    "edtf:inception": "2021-11-19T06:11:57-08:00",
     "flysfo:actual_timestamp": 1637359260,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.130638000000005,
     "geom:longitude": -98.07939400000001,
     "iata:airline": "DL",
+    "icao:aircraft": "B763",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289965,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102534365,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N195DN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882137,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8719668",
+      "swim:gufi": "KO76558600"
+    },
     "wof:country": "US",
     "wof:created": 1637425022,
     "wof:geomhash": "1348792a172720778d3219cc18ccd8ee",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746662287,
     "wof:involves": [
+      1159289965,
       102534365,
       102527513,
       1159284261,
       1745882213
     ],
-    "wof:lastmodified": 1637425022,
+    "wof:lastmodified": 1637425410,
     "wof:name": "DL343 (SFO-JFK)",
     "wof:parent_id": 1745882213,
     "wof:placetype": "custom",

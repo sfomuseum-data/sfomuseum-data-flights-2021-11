@@ -2,10 +2,12 @@
   "id": 1746663547,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-20",
+    "date:cessation_upper": "2021-11-20",
     "date:inception_lower": "2021-11-19",
     "date:inception_upper": "2021-11-19",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-19",
+    "edtf:cessation": "2021-11-20T07:54:00Z",
+    "edtf:inception": "2021-11-19T15:02:12-08:00",
     "flysfo:actual_timestamp": 1637366400,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-19",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.838961999999995,
     "geom:longitude": -119.97934599999999,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.61844,
     "lbl:longitude": -122.392214,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102533575,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N467UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:gufi": "KO17612700"
+    },
     "wof:country": "US",
     "wof:created": 1637425357,
     "wof:geomhash": "ec8e91229a6790516c63cb7081c35777",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746663547,
     "wof:involves": [
+      1745882427,
+      1159292085,
       102533575,
       102527513,
-      1159285413,
-      1745882427
+      1159285413
     ],
-    "wof:lastmodified": 1637425357,
+    "wof:lastmodified": 1637425406,
     "wof:name": "UA768 (SFO-ONT)",
     "wof:parent_id": 1745882427,
     "wof:placetype": "custom",
