@@ -2,10 +2,12 @@
   "id": 1746667477,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-20",
-    "date:inception_upper": "2021-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-20",
+    "date:cessation_lower": "2021-11-21",
+    "date:cessation_upper": "2021-11-21",
+    "date:inception_lower": "2021-11-21",
+    "date:inception_upper": "2021-11-21",
+    "edtf:cessation": "2021-11-21T22:03:51Z",
+    "edtf:inception": "2021-11-21T08:37:00Z",
     "flysfo:actual_timestamp": 1637452800,
     "flysfo:airline": "PR",
     "flysfo:date": "2021-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 18.808995,
     "geom:longitude": -61.1854715,
     "iata:airline": "PR",
+    "icao:aircraft": "B77W",
     "icao:airline": "PAL",
     "lbl:latitude": 37.61227,
     "lbl:longitude": -122.390079,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159285015,
     "sfomuseum:arrival_id": -1,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "RPC7778",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8747213"
+    },
     "wof:country": "US",
     "wof:created": 1637511493,
     "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
@@ -81,12 +94,12 @@
     ],
     "wof:id": 1746667477,
     "wof:involves": [
-      -1,
+      1745882387,
+      1159289993,
       102527513,
-      1159285015,
-      1745882387
+      1159285015
     ],
-    "wof:lastmodified": 1637511493,
+    "wof:lastmodified": 1637511746,
     "wof:name": "PR105 (SFO-CEB)",
     "wof:parent_id": 1745882387,
     "wof:placetype": "custom",

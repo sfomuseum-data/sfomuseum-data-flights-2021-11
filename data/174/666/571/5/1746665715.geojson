@@ -2,10 +2,12 @@
   "id": 1746665715,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-20",
+    "date:cessation_upper": "2021-11-20",
     "date:inception_lower": "2021-11-20",
     "date:inception_upper": "2021-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-20",
+    "edtf:cessation": "2021-11-20T15:23:00Z",
+    "edtf:inception": "2021-11-20T14:05:00Z",
     "flysfo:actual_timestamp": 1637452800,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.619531,
     "lbl:longitude": -122.384262,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N37527",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8763298",
+      "swim:gufi": "KS43837700"
+    },
     "wof:country": "US",
     "wof:created": 1637511056,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746665715,
     "wof:involves": [
+      1528104577,
       102527513,
       102532251,
       1159285413,
       1745882319
     ],
-    "wof:lastmodified": 1637511056,
+    "wof:lastmodified": 1637511742,
     "wof:name": "UA2101 (PDX-SFO)",
     "wof:parent_id": 1745882319,
     "wof:placetype": "custom",

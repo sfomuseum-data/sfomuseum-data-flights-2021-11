@@ -2,10 +2,12 @@
   "id": 1746666805,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-21",
+    "date:cessation_upper": "2021-11-21",
     "date:inception_lower": "2021-11-20",
     "date:inception_upper": "2021-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-20",
+    "edtf:cessation": "2021-11-21T01:08:00Z",
+    "edtf:inception": "2021-11-20T23:24:00Z",
     "flysfo:actual_timestamp": 1637452800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-20",
@@ -48,6 +50,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8805015"
+    },
     "wof:country": "US",
     "wof:created": 1637511327,
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
@@ -86,7 +91,7 @@
       1159283813,
       1745882107
     ],
-    "wof:lastmodified": 1637511327,
+    "wof:lastmodified": 1637511744,
     "wof:name": "AS1477 (SFO-SEA)",
     "wof:parent_id": 1745882107,
     "wof:placetype": "custom",

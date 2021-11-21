@@ -2,10 +2,12 @@
   "id": 1746667759,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-21",
+    "date:cessation_upper": "2021-11-21",
     "date:inception_lower": "2021-11-20",
     "date:inception_upper": "2021-11-20",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-20",
+    "edtf:cessation": "2021-11-21T10:33:21Z",
+    "edtf:inception": "2021-11-20T20:15:00Z",
     "flysfo:actual_timestamp": 1637438760,
     "flysfo:airline": "SQ",
     "flysfo:date": "2021-11-20",
@@ -21,9 +23,11 @@
     "geom:latitude": 29.9627305,
     "geom:longitude": -4.221753499999998,
     "iata:airline": "SQ",
+    "icao:aircraft": "B77W",
     "icao:airline": "SIA",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159286259,
     "sfomuseum:arrival_id": 102541737,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "9VSWW",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "8799454"
+    },
     "wof:country": "US",
     "wof:created": 1637511565,
     "wof:geomhash": "b8fc8d95bb44b1c6b9f6cb201e4d2ca9",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746667759,
     "wof:involves": [
+      1159289993,
       102541737,
       102527513,
       1159286259,
       1745882419
     ],
-    "wof:lastmodified": 1637511565,
+    "wof:lastmodified": 1637511746,
     "wof:name": "SQ7 (SFO-HKG)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",
