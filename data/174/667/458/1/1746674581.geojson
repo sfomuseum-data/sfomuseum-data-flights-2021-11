@@ -2,10 +2,12 @@
   "id": 1746674581,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-23",
+    "date:cessation_upper": "2021-11-23",
     "date:inception_lower": "2021-11-22",
     "date:inception_upper": "2021-11-22",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-22",
+    "edtf:cessation": "2021-11-23T01:17:38Z",
+    "edtf:inception": "2021-11-22T17:25:00Z",
     "flysfo:actual_timestamp": 1637630820,
     "flysfo:airline": "BF",
     "flysfo:date": "2021-11-22",
@@ -21,9 +23,11 @@
     "geom:latitude": 10.0222635,
     "geom:longitude": -135.9940435,
     "iata:airline": "BF",
+    "icao:aircraft": "A359",
     "icao:airline": "FBU",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
+    "sfomuseum:aircraft_id": 1377564293,
     "sfomuseum:airline_id": 1377649073,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102558779,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "FHREN",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9015603"
+    },
     "wof:country": "US",
     "wof:created": 1637683678,
     "wof:geomhash": "cb635fc427df70f0d5f88d1f39ad4ded",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746674581,
     "wof:involves": [
+      1377564293,
       102527513,
       102558779,
       1377649073,
       1745882381
     ],
-    "wof:lastmodified": 1637683678,
+    "wof:lastmodified": 1637684650,
     "wof:name": "BF711 (PPT-SFO)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "custom",
