@@ -1,0 +1,69 @@
+{
+  "id": 1746691379,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-11-24",
+    "date:inception_upper": "2021-11-24",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-11-24",
+    "flysfo:actual_timestamp": 1637798400,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2021-11-24",
+    "flysfo:estimated_timestamp": 1637821800,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL8938",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-PHL",
+    "flysfo:scheduled_timestamp": 1637821800,
+    "flysfo:timestamp": 1637821800,
+    "geom:area": 0,
+    "geom:bbox": "-122.370943,37.617990,-75.247885,39.880952",
+    "geom:latitude": 38.749471,
+    "geom:longitude": -98.809414,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102529403,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20211124-D-DAL-8938",
+    "sfomuseum:flight_number": [
+      "DAL8938",
+      "DL8938"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1637857082,
+    "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746691379
+      }
+    ],
+    "wof:id": 1746691379,
+    "wof:involves": [
+      102529403,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1637857082,
+    "wof:name": "DL8938 (SFO-PHL)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.370943,
+    37.61799,
+    -75.247885,
+    39.880952
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-75.247885,39.880952]],"type":"MultiPoint"}
+}
