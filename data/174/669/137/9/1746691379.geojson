@@ -2,10 +2,12 @@
   "id": 1746691379,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-24",
-    "date:inception_upper": "2021-11-24",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-24",
+    "date:cessation_lower": "2021-11-25",
+    "date:cessation_upper": "2021-11-25",
+    "date:inception_lower": "2021-11-25",
+    "date:inception_upper": "2021-11-25",
+    "edtf:cessation": "2021-11-25T12:47:00Z",
+    "edtf:inception": "2021-11-24T16:02:52-08:00",
     "flysfo:actual_timestamp": 1637798400,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-24",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.749471,
     "geom:longitude": -98.809414,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102529403,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N663DN",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:gufi": "KO20450500"
+    },
     "wof:country": "US",
     "wof:created": 1637857082,
     "wof:geomhash": "262283982e32a09ea653beb1776c6fc7",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746691379,
     "wof:involves": [
+      1159289939,
       102529403,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1637857082,
+    "wof:lastmodified": 1637857472,
     "wof:name": "DL8938 (SFO-PHL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
