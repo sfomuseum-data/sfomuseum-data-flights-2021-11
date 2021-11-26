@@ -1,0 +1,69 @@
+{
+  "id": 1746695049,
+  "type": "Feature",
+  "properties": {
+    "date:inception_lower": "2021-11-25",
+    "date:inception_upper": "2021-11-25",
+    "edtf:cessation": "",
+    "edtf:inception": "2021-11-25",
+    "flysfo:actual_timestamp": 1637884800,
+    "flysfo:airline": "DL",
+    "flysfo:date": "2021-11-25",
+    "flysfo:estimated_timestamp": 1637862660,
+    "flysfo:event": "D",
+    "flysfo:flight_number": "DL416",
+    "flysfo:gate": "",
+    "flysfo:journey": "SFO-STS",
+    "flysfo:scheduled_timestamp": 1637862300,
+    "flysfo:timestamp": 1637884800,
+    "geom:area": 0,
+    "geom:bbox": "-122.806017,37.617990,-122.370943,38.510830",
+    "geom:latitude": 38.064409999999995,
+    "geom:longitude": -122.58848,
+    "iata:airline": "DL",
+    "icao:airline": "DAL",
+    "lbl:latitude": 37.61799,
+    "lbl:longitude": -122.370943,
+    "sfomuseum:airline_id": 1159284261,
+    "sfomuseum:arrival_id": 102533507,
+    "sfomuseum:departure_id": 102527513,
+    "sfomuseum:flight_id": "20211125-D-DAL-416",
+    "sfomuseum:flight_number": [
+      "DAL416",
+      "DL416"
+    ],
+    "sfomuseum:placetype": "flight",
+    "src:geom": "flysfo",
+    "wof:belongsto": [],
+    "wof:country": "US",
+    "wof:created": 1637946854,
+    "wof:geomhash": "445cb052fce1c70fb6dd740469d7b570",
+    "wof:hierarchy": [
+      {
+        "flight_id": 1746695049
+      }
+    ],
+    "wof:id": 1746695049,
+    "wof:involves": [
+      102533507,
+      102527513,
+      1159284261,
+      -1
+    ],
+    "wof:lastmodified": 1637946854,
+    "wof:name": "DL416 (SFO-STS)",
+    "wof:parent_id": -1,
+    "wof:placetype": "custom",
+    "wof:placetype_alt": "flight",
+    "wof:repo": "sfomuseum-data-flights-2021-11",
+    "wof:superseded_by": [],
+    "wof:supersedes": []
+  },
+  "bbox": [
+    -122.806017,
+    37.61799,
+    -122.370943,
+    38.51083
+  ],
+  "geometry": {"coordinates":[[-122.370943,37.61799],[-122.806017,38.51083]],"type":"MultiPoint"}
+}
