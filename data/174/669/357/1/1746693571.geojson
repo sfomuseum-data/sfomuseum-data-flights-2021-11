@@ -2,10 +2,12 @@
   "id": 1746693571,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-25",
+    "date:cessation_upper": "2021-11-25",
     "date:inception_lower": "2021-11-25",
     "date:inception_upper": "2021-11-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-25",
+    "edtf:cessation": "2021-11-25T10:28:43-08:00",
+    "edtf:inception": "2021-11-25T22:28:00Z",
     "flysfo:actual_timestamp": 1637884800,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.659685499999995,
     "geom:longitude": -104.341809,
     "iata:airline": "DL",
+    "icao:aircraft": "A332",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289421,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102531095,
@@ -34,7 +38,17 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N861NW",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "9233742",
+      "swim:gufi": "KG78048500"
+    },
     "wof:country": "US",
     "wof:created": 1637942781,
     "wof:geomhash": "14a8777212bf4cbc4248f5293e82db41",
@@ -45,12 +59,12 @@
     ],
     "wof:id": 1746693571,
     "wof:involves": [
+      1159289421,
       102527513,
       102531095,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1637942781,
+    "wof:lastmodified": 1637947152,
     "wof:name": "DL8908 (SBN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

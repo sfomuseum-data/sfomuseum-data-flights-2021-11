@@ -2,10 +2,12 @@
   "id": 1746695175,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-25",
+    "date:cessation_upper": "2021-11-25",
     "date:inception_lower": "2021-11-25",
     "date:inception_upper": "2021-11-25",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-25",
+    "edtf:cessation": "2021-11-25T11:11:59Z",
+    "edtf:inception": "2021-11-25T09:00:00Z",
     "flysfo:actual_timestamp": 1637830140,
     "flysfo:airline": "F9",
     "flysfo:date": "2021-11-25",
@@ -21,9 +23,11 @@
     "geom:latitude": 38.7414645,
     "geom:longitude": -113.521581,
     "iata:airline": "F9",
+    "icao:aircraft": "A321",
     "icao:airline": "FFT",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289411,
     "sfomuseum:airline_id": 1159284401,
     "sfomuseum:arrival_id": 102531189,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N722FR",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9177572",
+      "swim:gufi": "KO28756500"
+    },
     "wof:country": "US",
     "wof:created": 1637946887,
     "wof:geomhash": "976937653dbac6c9c27dd23670ba89bf",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746695175,
     "wof:involves": [
-      102531189,
-      102527513,
       1159284401,
-      1745882395
+      1745882395,
+      1159289411,
+      102531189,
+      102527513
     ],
-    "wof:lastmodified": 1637946887,
+    "wof:lastmodified": 1637947152,
     "wof:name": "F9662 (SFO-DEN)",
     "wof:parent_id": 1745882395,
     "wof:placetype": "custom",
