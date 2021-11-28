@@ -2,10 +2,12 @@
   "id": 1746703929,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-27",
+    "date:cessation_upper": "2021-11-27",
     "date:inception_lower": "2021-11-27",
     "date:inception_upper": "2021-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-27",
+    "edtf:cessation": "2021-11-27T23:28:00Z",
+    "edtf:inception": "2021-11-27T22:34:00Z",
     "flysfo:actual_timestamp": 1638057600,
     "flysfo:airline": "DL",
     "flysfo:date": "2021-11-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "DL",
+    "icao:aircraft": "B752",
     "icao:airline": "DAL",
     "lbl:latitude": 37.61799,
     "lbl:longitude": -122.370943,
+    "sfomuseum:aircraft_id": 1159289939,
     "sfomuseum:airline_id": 1159284261,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,7 +38,15 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N652DL",
     "wof:belongsto": [],
+    "wof:concordances": {
+      "swim:flight_ref": "9357098",
+      "swim:gufi": "KO76268700"
+    },
     "wof:country": "US",
     "wof:created": 1638116328,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -45,12 +57,12 @@
     ],
     "wof:id": 1746703929,
     "wof:involves": [
+      1159289939,
       102533795,
       102527513,
-      1159284261,
-      -1
+      1159284261
     ],
-    "wof:lastmodified": 1638116328,
+    "wof:lastmodified": 1638116717,
     "wof:name": "DL8926 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",

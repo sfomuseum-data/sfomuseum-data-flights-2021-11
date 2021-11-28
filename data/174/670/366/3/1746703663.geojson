@@ -2,10 +2,12 @@
   "id": 1746703663,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-27",
-    "date:inception_upper": "2021-11-27",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-27",
+    "date:cessation_lower": "2021-11-28",
+    "date:cessation_upper": "2021-11-28",
+    "date:inception_lower": "2021-11-28",
+    "date:inception_upper": "2021-11-28",
+    "edtf:cessation": "2021-11-28T03:36:57Z",
+    "edtf:inception": "2021-11-28T00:34:00Z",
     "flysfo:actual_timestamp": 1638058680,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-27",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.231919500000004,
     "geom:longitude": -109.610733,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616969,
     "lbl:longitude": -122.381363,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102525799,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N840VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9359167"
+    },
     "wof:country": "US",
     "wof:created": 1638116256,
     "wof:geomhash": "a08c5b1a6c329f228ec453404f254a51",
@@ -84,9 +97,10 @@
       102525799,
       102527513,
       1159283813,
-      1745882097
+      1745882097,
+      1159292085
     ],
-    "wof:lastmodified": 1638116256,
+    "wof:lastmodified": 1638116716,
     "wof:name": "AS703 (SFO-DAL)",
     "wof:parent_id": 1745882097,
     "wof:placetype": "custom",
