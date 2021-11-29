@@ -2,10 +2,12 @@
   "id": 1746752521,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-28",
-    "date:inception_upper": "2021-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-28",
+    "date:cessation_lower": "2021-11-28",
+    "date:cessation_upper": "2021-11-28",
+    "date:inception_lower": "1970-01-01",
+    "date:inception_upper": "1970-01-01",
+    "edtf:cessation": "2021-11-28T04:58:13-08:00",
+    "edtf:inception": "1970-01-01T00:00:00Z",
     "flysfo:actual_timestamp": 1638134040,
     "flysfo:airline": "EK",
     "flysfo:date": "2021-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 31.4340265,
     "geom:longitude": -33.504103,
     "iata:airline": "EK",
+    "icao:aircraft": "B77W",
     "icao:airline": "UAE",
     "lbl:latitude": 37.612674,
     "lbl:longitude": -122.389174,
+    "sfomuseum:aircraft_id": 1159289993,
     "sfomuseum:airline_id": 1159284333,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102558433,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-approach"
+    ],
+    "swim:tail_number": "A6EQA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -84,9 +92,10 @@
       102527513,
       102558433,
       1159284333,
-      1745882377
+      1745882377,
+      1159289993
     ],
-    "wof:lastmodified": 1638202279,
+    "wof:lastmodified": 1638203107,
     "wof:name": "EK225 (DXB-SFO)",
     "wof:parent_id": 1745882377,
     "wof:placetype": "custom",

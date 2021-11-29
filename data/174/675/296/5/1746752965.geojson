@@ -2,10 +2,12 @@
   "id": 1746752965,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-29",
+    "date:cessation_upper": "2021-11-29",
     "date:inception_lower": "2021-11-28",
     "date:inception_upper": "2021-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-28",
+    "edtf:cessation": "2021-11-28T23:23:33-08:00",
+    "edtf:inception": "2021-11-28T14:13:00Z",
     "flysfo:actual_timestamp": 1638113160,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 40.868524,
     "geom:longitude": -122.79198650000001,
     "iata:airline": "UA",
+    "icao:aircraft": "A320",
     "icao:airline": "UAL",
     "lbl:latitude": 37.617835,
     "lbl:longitude": -122.388019,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102533927,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N401UA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9393096",
+      "swim:gufi": "KS43750100"
+    },
     "wof:country": "US",
     "wof:created": 1638202390,
     "wof:geomhash": "68b06bbd791163721a20ab955d143e55",
@@ -81,12 +95,13 @@
     ],
     "wof:id": 1746752965,
     "wof:involves": [
-      102527513,
       102533927,
       1159285413,
-      1745882249
+      1745882249,
+      1159292085,
+      102527513
     ],
-    "wof:lastmodified": 1638202390,
+    "wof:lastmodified": 1638203109,
     "wof:name": "UA758 (EUG-SFO)",
     "wof:parent_id": 1745882249,
     "wof:placetype": "custom",

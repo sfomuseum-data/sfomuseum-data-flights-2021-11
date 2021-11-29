@@ -2,10 +2,12 @@
   "id": 1746751051,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-28",
+    "date:cessation_upper": "2021-11-28",
     "date:inception_lower": "2021-11-28",
     "date:inception_upper": "2021-11-28",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-28",
+    "edtf:cessation": "2021-11-28T22:49:57Z",
+    "edtf:inception": "2021-11-28T14:05:46Z",
     "flysfo:actual_timestamp": 1638144000,
     "flysfo:airline": "NH",
     "flysfo:date": "2021-11-28",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.5860375,
     "geom:longitude": 8.702347499999995,
     "iata:airline": "NH",
+    "icao:aircraft": "B788",
     "icao:airline": "ANA",
     "lbl:latitude": 37.61776,
     "lbl:longitude": -122.3918,
+    "sfomuseum:aircraft_id": 1159289995,
     "sfomuseum:airline_id": 1159283875,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102541591,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "JA822A",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882335,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9392634"
+    },
     "wof:country": "US",
     "wof:created": 1638201905,
     "wof:geomhash": "99c2bdbe61e95eb26a51b43b0c172358",
@@ -84,9 +97,10 @@
       102527513,
       102541591,
       1159283875,
-      1745882411
+      1745882411,
+      1159289995
     ],
-    "wof:lastmodified": 1638201905,
+    "wof:lastmodified": 1638203095,
     "wof:name": "NH108 (HND-SFO)",
     "wof:parent_id": 1745882411,
     "wof:placetype": "custom",
