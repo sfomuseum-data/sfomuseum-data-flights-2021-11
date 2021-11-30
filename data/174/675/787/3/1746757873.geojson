@@ -2,10 +2,12 @@
   "id": 1746757873,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-29",
+    "date:cessation_upper": "2021-11-29",
     "date:inception_lower": "2021-11-29",
     "date:inception_upper": "2021-11-29",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-29",
+    "edtf:cessation": "2021-11-29T15:01:00Z",
+    "edtf:inception": "2021-11-29T13:27:00Z",
     "flysfo:actual_timestamp": 1638198120,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-29",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.525337,
     "geom:longitude": -117.19416749999999,
     "iata:airline": "UA",
+    "icao:aircraft": "B739",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618139,
     "lbl:longitude": -122.381258,
+    "sfomuseum:aircraft_id": 1377564285,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102526751,
@@ -34,6 +38,10 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path"
+    ],
+    "swim:tail_number": "N69818",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +56,10 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9468453",
+      "swim:gufi": "KA34563200"
+    },
     "wof:country": "US",
     "wof:created": 1638288705,
     "wof:geomhash": "c9fdc5df38b6a105de4fe30ae6ada830",
@@ -81,12 +93,13 @@
     ],
     "wof:id": 1746757873,
     "wof:involves": [
+      1745882111,
+      1377564285,
       102527513,
       102526751,
-      1159285413,
-      1745882111
+      1159285413
     ],
-    "wof:lastmodified": 1638288705,
+    "wof:lastmodified": 1638289488,
     "wof:name": "UA2057 (PHX-SFO)",
     "wof:parent_id": 1745882111,
     "wof:placetype": "custom",
