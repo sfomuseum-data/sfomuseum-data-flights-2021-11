@@ -2,10 +2,12 @@
   "id": 1746762185,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-30",
+    "date:cessation_upper": "2021-11-30",
     "date:inception_lower": "2021-11-30",
     "date:inception_upper": "2021-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-30",
+    "edtf:cessation": "2021-11-30T17:53:47Z",
+    "edtf:inception": "2021-11-30T16:17:00Z",
     "flysfo:actual_timestamp": 1638316800,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 41.602067,
     "geom:longitude": -122.484166,
     "iata:airline": "AS",
+    "icao:aircraft": "B738",
     "icao:airline": "ASA",
     "lbl:latitude": 37.616838,
     "lbl:longitude": -122.380969,
+    "sfomuseum:aircraft_id": 1159289871,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102532251,
@@ -34,6 +38,12 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "N549AS",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +58,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9564021"
+    },
     "wof:country": "US",
     "wof:created": 1638374758,
     "wof:geomhash": "3af422147b92e6fa9912d38a57ea404a",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746762185,
     "wof:involves": [
-      102527513,
-      102532251,
       1159283813,
-      1745882101
+      1745882101,
+      1159289871,
+      102527513,
+      102532251
     ],
-    "wof:lastmodified": 1638374758,
+    "wof:lastmodified": 1638375859,
     "wof:name": "AS295 (PDX-SFO)",
     "wof:parent_id": 1745882101,
     "wof:placetype": "custom",

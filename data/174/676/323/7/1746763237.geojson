@@ -2,10 +2,12 @@
   "id": 1746763237,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-30",
+    "date:cessation_upper": "2021-11-30",
     "date:inception_lower": "2021-11-30",
     "date:inception_upper": "2021-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-30",
+    "edtf:cessation": "2021-11-30T09:35:41-08:00",
+    "edtf:inception": "2021-11-30T12:18:00Z",
     "flysfo:actual_timestamp": 1638323040,
     "flysfo:airline": "TK",
     "flysfo:date": "2021-11-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 39.2997405,
     "geom:longitude": -46.776415,
     "iata:airline": "TK",
+    "icao:aircraft": "B789",
     "icao:airline": "THY",
     "lbl:latitude": 37.618057,
     "lbl:longitude": -122.392508,
+    "sfomuseum:aircraft_id": 1159293215,
     "sfomuseum:airline_id": 1159285391,
     "sfomuseum:arrival_id": 102527513,
     "sfomuseum:departure_id": 102535819,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-approach"
+    ],
+    "swim:tail_number": "TCLLI",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -81,12 +90,13 @@
     ],
     "wof:id": 1746763237,
     "wof:involves": [
+      1159293215,
       102527513,
       102535819,
       1159285391,
       1745882419
     ],
-    "wof:lastmodified": 1638375025,
+    "wof:lastmodified": 1638375869,
     "wof:name": "TK79 (IST-SFO)",
     "wof:parent_id": 1745882419,
     "wof:placetype": "custom",

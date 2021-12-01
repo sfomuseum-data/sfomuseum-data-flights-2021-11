@@ -2,10 +2,12 @@
   "id": 1746764527,
   "type": "Feature",
   "properties": {
+    "date:cessation_lower": "2021-11-30",
+    "date:cessation_upper": "2021-11-30",
     "date:inception_lower": "2021-11-30",
     "date:inception_upper": "2021-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-30",
+    "edtf:cessation": "2021-11-30T15:37:00Z",
+    "edtf:inception": "2021-11-30T14:37:00Z",
     "flysfo:actual_timestamp": 1638282120,
     "flysfo:airline": "AS",
     "flysfo:date": "2021-11-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 35.780291500000004,
     "geom:longitude": -120.38022649999999,
     "iata:airline": "AS",
+    "icao:aircraft": "A320",
     "icao:airline": "ASA",
     "lbl:latitude": 37.61705,
     "lbl:longitude": -122.380838,
+    "sfomuseum:aircraft_id": 1159292085,
     "sfomuseum:airline_id": 1159283813,
     "sfomuseum:arrival_id": 102533795,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-route",
+      "swim-path"
+    ],
+    "swim:tail_number": "N841VA",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,9 @@
       1745882085,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9554397"
+    },
     "wof:country": "US",
     "wof:created": 1638375382,
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
@@ -84,9 +96,10 @@
       102533795,
       102527513,
       1159283813,
-      1745882103
+      1745882103,
+      1159292085
     ],
-    "wof:lastmodified": 1638375382,
+    "wof:lastmodified": 1638375874,
     "wof:name": "AS656 (SFO-LAX)",
     "wof:parent_id": 1745882103,
     "wof:placetype": "custom",

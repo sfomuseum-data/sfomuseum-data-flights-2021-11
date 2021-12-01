@@ -2,10 +2,12 @@
   "id": 1746765617,
   "type": "Feature",
   "properties": {
-    "date:inception_lower": "2021-11-30",
-    "date:inception_upper": "2021-11-30",
-    "edtf:cessation": "",
-    "edtf:inception": "2021-11-30",
+    "date:cessation_lower": "2021-12-01",
+    "date:cessation_upper": "2021-12-01",
+    "date:inception_lower": "2021-12-01",
+    "date:inception_upper": "2021-12-01",
+    "edtf:cessation": "2021-12-01T04:23:00Z",
+    "edtf:inception": "2021-12-01T03:10:00Z",
     "flysfo:actual_timestamp": 1638327060,
     "flysfo:airline": "UA",
     "flysfo:date": "2021-11-30",
@@ -21,9 +23,11 @@
     "geom:latitude": 36.8494965,
     "geom:longitude": -118.7636915,
     "iata:airline": "UA",
+    "icao:aircraft": "B39M",
     "icao:airline": "UAL",
     "lbl:latitude": 37.618161,
     "lbl:longitude": -122.384735,
+    "sfomuseum:aircraft_id": 1528104577,
     "sfomuseum:airline_id": 1159285413,
     "sfomuseum:arrival_id": 102527209,
     "sfomuseum:departure_id": 102527513,
@@ -34,6 +38,11 @@
     ],
     "sfomuseum:placetype": "flight",
     "src:geom": "flysfo",
+    "src:geom_alt": [
+      "swim-path",
+      "swim-takeoff"
+    ],
+    "swim:tail_number": "N37507",
     "wof:belongsto": [
       1745882083,
       102527513,
@@ -48,6 +57,10 @@
       1745882233,
       102085387
     ],
+    "wof:concordances": {
+      "swim:flight_ref": "9532738",
+      "swim:gufi": "KO80698300"
+    },
     "wof:country": "US",
     "wof:created": 1638375655,
     "wof:geomhash": "ccf694144ef1f7a2823fe9bc7c6018ea",
@@ -81,12 +94,13 @@
     ],
     "wof:id": 1746765617,
     "wof:involves": [
+      1528104577,
       102527209,
       102527513,
       1159285413,
       1745882301
     ],
-    "wof:lastmodified": 1638375655,
+    "wof:lastmodified": 1638375867,
     "wof:name": "UA1860 (SFO-LAS)",
     "wof:parent_id": 1745882301,
     "wof:placetype": "custom",
