@@ -17,15 +17,15 @@
     "flysfo:scheduled_timestamp": 1636271700,
     "flysfo:timestamp": 1636275000,
     "geom:area": 0,
-    "geom:bbox": "-122.370943,0.000000,0.000000,37.617990",
-    "geom:latitude": 18.808995,
-    "geom:longitude": -61.1854715,
+    "geom:bbox": "-122.370943,10.314233,123.979597,37.617990",
+    "geom:latitude": 23.9661115,
+    "geom:longitude": 0.8043270000000007,
     "iata:airline": "PR",
     "icao:airline": "PAL",
     "lbl:latitude": 37.612048,
     "lbl:longitude": -122.389573,
     "sfomuseum:airline_id": 1159285015,
-    "sfomuseum:arrival_id": -1,
+    "sfomuseum:arrival_id": 102553239,
     "sfomuseum:departure_id": 102527513,
     "sfomuseum:flight_id": "20211106-D-PAL-105",
     "sfomuseum:flight_number": [
@@ -50,7 +50,7 @@
     ],
     "wof:country": "US",
     "wof:created": 1636301814,
-    "wof:geomhash": "f7b726ae54aa9222cfb9d243d2e793d0",
+    "wof:geomhash": "4914421652a0a7ef306979f3e19f6636",
     "wof:hierarchy": [
       {
         "building_id": 1745882083,
@@ -86,7 +86,7 @@
       1159285015,
       1745882381
     ],
-    "wof:lastmodified": 1636301814,
+    "wof:lastmodified": 1651260887,
     "wof:name": "PR105 (SFO-CEB)",
     "wof:parent_id": 1745882381,
     "wof:placetype": "custom",
@@ -97,9 +97,9 @@
   },
   "bbox": [
     -122.370943,
-    0,
-    0,
+    10.314233,
+    123.979597,
     37.61799
   ],
-  "geometry": {"coordinates":[[-122.370943,37.61799],[0,0]],"type":"MultiPoint"}
+  "geometry": {"coordinates":[[-122.370943,37.61799],[123.979597,10.314233]],"type":"MultiPoint"}
 }
