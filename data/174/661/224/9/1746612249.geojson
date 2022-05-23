@@ -56,7 +56,11 @@
       85688637,
       1745882279,
       1745882233,
-      102085387
+      102085387,
+      1763588121,
+      1763588271,
+      1763588315,
+      1763588269
     ],
     "wof:concordances": {
       "swim:flight_ref": "7830297",
@@ -91,6 +95,32 @@
         "region_id": 85688637,
         "venue_id": 1745882279,
         "wing_id": 1745882233
+      },
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588271,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "flight_id": 1746612249,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1763588315,
+        "wing_id": 1763588269
+      },
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588271,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "flight_id": 1746612249,
+        "region_id": 85688637,
+        "venue_id": 1763588315,
+        "wing_id": 1763588269
       }
     ],
     "wof:id": 1746612249,
@@ -101,9 +131,9 @@
       102534365,
       102527513
     ],
-    "wof:lastmodified": 1636561243,
+    "wof:lastmodified": 1653097319,
     "wof:name": "UA520 (SFO-JFK)",
-    "wof:parent_id": 1745882279,
+    "wof:parent_id": -4,
     "wof:placetype": "custom",
     "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2021-11",

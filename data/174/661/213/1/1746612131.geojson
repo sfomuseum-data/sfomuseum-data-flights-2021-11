@@ -56,7 +56,11 @@
       85688637,
       1745882291,
       1745882233,
-      102085387
+      102085387,
+      1763588121,
+      1763588271,
+      1763588325,
+      1763588269
     ],
     "wof:concordances": {
       "swim:flight_ref": "7805418",
@@ -66,6 +70,18 @@
     "wof:created": 1636561118,
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
     "wof:hierarchy": [
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588271,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102085387,
+        "flight_id": 1746612131,
+        "region_id": 85688637,
+        "venue_id": 1763588325,
+        "wing_id": 1763588269
+      },
       {
         "building_id": 1745882083,
         "campus_id": 102527513,
@@ -91,6 +107,20 @@
         "region_id": 85688637,
         "venue_id": 1745882291,
         "wing_id": 1745882233
+      },
+      {
+        "building_id": 1763588121,
+        "campus_id": 102527513,
+        "concourse_id": 1763588271,
+        "continent_id": 102191575,
+        "country_id": 85633793,
+        "county_id": 102087579,
+        "flight_id": 1746612131,
+        "locality_id": 85922583,
+        "postalcode_id": 554784711,
+        "region_id": 85688637,
+        "venue_id": 1763588325,
+        "wing_id": 1763588269
       }
     ],
     "wof:id": 1746612131,
@@ -101,9 +131,9 @@
       1159285413,
       1745882291
     ],
-    "wof:lastmodified": 1636561242,
+    "wof:lastmodified": 1653097319,
     "wof:name": "UA2093 (SFO-EWR)",
-    "wof:parent_id": 1745882291,
+    "wof:parent_id": -4,
     "wof:placetype": "custom",
     "wof:placetype_alt": "flight",
     "wof:repo": "sfomuseum-data-flights-2021-11",
