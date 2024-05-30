@@ -49,6 +49,7 @@
     "wof:geomhash": "8eef79dee45c47eff2935879475b5fae",
     "wof:hierarchy": [
       {
+        "custom_id": 1746660729,
         "flight_id": 1746660729
       }
     ],
@@ -59,11 +60,13 @@
       102558433,
       1159284333
     ],
-    "wof:lastmodified": 1637425400,
+    "wof:lastmodified": 1717037059,
     "wof:name": "EK225 (DXB-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

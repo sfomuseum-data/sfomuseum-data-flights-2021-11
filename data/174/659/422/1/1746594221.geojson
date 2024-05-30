@@ -52,6 +52,7 @@
     "wof:geomhash": "a35a6e87f0ae0f1f716f88067ee31aa3",
     "wof:hierarchy": [
       {
+        "custom_id": 1746594221,
         "flight_id": 1746594221
       }
     ],
@@ -62,11 +63,13 @@
       102533591,
       1159283813
     ],
-    "wof:lastmodified": 1636302029,
+    "wof:lastmodified": 1717037062,
     "wof:name": "AS9809 (PSP-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

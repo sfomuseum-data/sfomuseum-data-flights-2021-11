@@ -40,6 +40,7 @@
     "wof:geomhash": "398b6cf59cf3bdf390f5834c7a336099",
     "wof:hierarchy": [
       {
+        "custom_id": 1746657103,
         "flight_id": 1746657103
       }
     ],
@@ -50,11 +51,13 @@
       1159285413,
       -1
     ],
-    "wof:lastmodified": 1637338954,
+    "wof:lastmodified": 1717037068,
     "wof:name": "UA5829 (SFO-RDM)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

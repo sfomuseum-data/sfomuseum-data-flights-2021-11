@@ -48,6 +48,7 @@
     "wof:geomhash": "fcf5095e8d1a14d003993bc5070a7f0f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746648399,
         "flight_id": 1746648399
       }
     ],
@@ -58,11 +59,13 @@
       102527209,
       1159284401
     ],
-    "wof:lastmodified": 1637252531,
+    "wof:lastmodified": 1717037065,
     "wof:name": "F92063 (LAS-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

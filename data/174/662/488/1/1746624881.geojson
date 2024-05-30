@@ -48,6 +48,7 @@
     "wof:geomhash": "099d85224c4d6fa8685f2b490939bec5",
     "wof:hierarchy": [
       {
+        "custom_id": 1746624881,
         "flight_id": 1746624881
       }
     ],
@@ -58,11 +59,13 @@
       102530801,
       1159285413
     ],
-    "wof:lastmodified": 1636820519,
+    "wof:lastmodified": 1717037062,
     "wof:name": "UA2725 (VCV-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

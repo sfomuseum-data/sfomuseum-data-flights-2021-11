@@ -45,6 +45,7 @@
     "wof:geomhash": "5f8ba203e186fe379420b736bcf5de4f",
     "wof:hierarchy": [
       {
+        "custom_id": 1746592733,
         "flight_id": 1746592733
       }
     ],
@@ -56,11 +57,13 @@
       -1,
       1159285413
     ],
-    "wof:lastmodified": 1636215561,
+    "wof:lastmodified": 1717037060,
     "wof:name": "LX3171 (SFO-EWR)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

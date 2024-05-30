@@ -50,6 +50,7 @@
     "wof:geomhash": "c1b858affbd20b2c728ba535a4ce178e",
     "wof:hierarchy": [
       {
+        "custom_id": 1746669819,
         "flight_id": 1746669819
       }
     ],
@@ -60,11 +61,13 @@
       102527513,
       102536223
     ],
-    "wof:lastmodified": 1637598200,
+    "wof:lastmodified": 1717037066,
     "wof:name": "B62241 (CUN-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

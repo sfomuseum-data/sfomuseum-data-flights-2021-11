@@ -40,6 +40,7 @@
     "wof:geomhash": "445cb052fce1c70fb6dd740469d7b570",
     "wof:hierarchy": [
       {
+        "custom_id": 1746695049,
         "flight_id": 1746695049
       }
     ],
@@ -50,11 +51,13 @@
       1159284261,
       -1
     ],
-    "wof:lastmodified": 1637946854,
+    "wof:lastmodified": 1717037070,
     "wof:name": "DL416 (SFO-STS)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

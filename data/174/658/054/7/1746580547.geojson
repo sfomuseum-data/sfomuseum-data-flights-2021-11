@@ -53,6 +53,7 @@
     "wof:geomhash": "a4023a41644574291fc7580f5443d9f4",
     "wof:hierarchy": [
       {
+        "custom_id": 1746580547,
         "flight_id": 1746580547
       }
     ],
@@ -63,11 +64,13 @@
       102524739,
       1159285591
     ],
-    "wof:lastmodified": 1636042866,
+    "wof:lastmodified": 1717037058,
     "wof:name": "WN814 (OMA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

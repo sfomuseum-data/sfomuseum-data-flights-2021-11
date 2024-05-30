@@ -48,6 +48,7 @@
     "wof:geomhash": "4950ee3446b3bceb23f284f0ade1f651",
     "wof:hierarchy": [
       {
+        "custom_id": 1746619901,
         "flight_id": 1746619901
       }
     ],
@@ -58,11 +59,13 @@
       1159289939,
       102527513
     ],
-    "wof:lastmodified": 1636734284,
+    "wof:lastmodified": 1717037066,
     "wof:name": "UA2753 (AMA-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

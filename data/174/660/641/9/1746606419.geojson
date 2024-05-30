@@ -53,6 +53,7 @@
     "wof:geomhash": "4036ee3c983703867dbe0486453848b1",
     "wof:hierarchy": [
       {
+        "custom_id": 1746606419,
         "flight_id": 1746606419
       }
     ],
@@ -63,11 +64,13 @@
       1377564285,
       102533269
     ],
-    "wof:lastmodified": 1636474986,
+    "wof:lastmodified": 1717037062,
     "wof:name": "AS9804 (SFO-SEA)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

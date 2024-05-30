@@ -52,6 +52,7 @@
     "wof:geomhash": "ff961493fc59fc665836e174da62aa8e",
     "wof:hierarchy": [
       {
+        "custom_id": 1746622407,
         "flight_id": 1746622407
       }
     ],
@@ -62,11 +63,13 @@
       102527513,
       1159285413
     ],
-    "wof:lastmodified": 1636734287,
+    "wof:lastmodified": 1717037060,
     "wof:name": "UA2703 (SFO-HNL)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

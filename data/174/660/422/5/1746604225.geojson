@@ -48,6 +48,7 @@
     "wof:geomhash": "6d798bc66034dc17109500bf89e39585",
     "wof:hierarchy": [
       {
+        "custom_id": 1746604225,
         "flight_id": 1746604225
       }
     ],
@@ -58,11 +59,13 @@
       1159289939,
       102527513
     ],
-    "wof:lastmodified": 1636474992,
+    "wof:lastmodified": 1717037060,
     "wof:name": "DL8933 (MEM-SFO)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []

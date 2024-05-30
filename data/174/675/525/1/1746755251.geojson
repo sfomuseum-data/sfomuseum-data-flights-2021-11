@@ -54,6 +54,7 @@
     "wof:geomhash": "602be2a828e3460cadf44be5b1c2e36b",
     "wof:hierarchy": [
       {
+        "custom_id": 1746755251,
         "flight_id": 1746755251
       }
     ],
@@ -64,11 +65,13 @@
       102533795,
       102527513
     ],
-    "wof:lastmodified": 1638203112,
+    "wof:lastmodified": 1717037070,
     "wof:name": "UA2762 (SFO-LAX)",
     "wof:parent_id": -1,
     "wof:placetype": "custom",
-    "wof:placetype_alt": "flight",
+    "wof:placetype_alt": [
+      "flight"
+    ],
     "wof:repo": "sfomuseum-data-flights-2021-11",
     "wof:superseded_by": [],
     "wof:supersedes": []
